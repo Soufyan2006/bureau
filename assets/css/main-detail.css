@@ -1,0 +1,131 @@
+body {
+    background-color: #ffffff;
+}
+
+.block {
+    color: #1e2029;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.block h1,
+.block h2,
+.block h3,
+.block h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.block .article h1,
+.vacancies.block h2 {
+    color: #1e2029;
+}
+
+.block [data-medium-editor-element] span,
+.block [data-medium-editor-element] a {
+    background-color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    letter-spacing: inherit !important;
+    line-height: inherit !important;
+}
+
+.block [data-medium-editor-element] a {
+    color: #0099FF;
+    border-bottom: 1px solid #0099FF;
+}
+
+.intro.block .body h1 {
+    color: #ffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.intro.block .body h2 {
+    color: #ffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.intro.block .body .about {
+    color: #ffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.quote.block .body .quote {
+    color: #0192fd;
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 110px;
+}
+
+.block .body li {
+    font-size: 22px;
+}
+
+.button.btn-apply {
+    background-color: #0099FF;
+    color: rgba(255, 255, 255, 1);
+}
+
+blockquote:before {
+    background-color: #0099FF;
+}
+
+@media only screen and (max-width: 767px) {
+    .block {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .block h1,
+    .block h2,
+    .block h3,
+    .block h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .intro.block .body h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .intro.block .body h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .intro.block .body .about {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .quote.block .body .quote {
+        font-size: 60px;
+        line-height: 110px;
+    }
+
+    .block .body li {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #block-0 {
+        padding-top: 25px !important;
+        padding-bottom: 0px !important;
+    }
+}
